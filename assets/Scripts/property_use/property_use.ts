@@ -19,7 +19,7 @@ export class property_use extends Component {
     @property([Node])
     children: Node[] = [];
 
-    @property({type:CCString, multiline:true})
+    @property({multiline:true})
     text = '';
 
     @property({tooltip:"hhh"})
